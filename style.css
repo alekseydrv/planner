@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #373e47 url("images/carbon.jpg") repeat;
+	font-size: 14px;
+	color: #2F2F2F;
+	line-height: 18px;
+}
+
+/*Оболочка*/
+
+.wrapper {
+	width: 980px;
+	padding: 0 10px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+/*Шапка*/
+
+.header {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.headerContent {
+	box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	background-color: #F4F4F4;
+	background-repeat: no-repeat;
+    background-image: -ms-linear-gradient(top, #F4F4F4, #DDDDDD);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F4F4F4), to(#DDDDDD));
+    background-image: -webkit-linear-gradient(top, #F4F4F4, #DDDDDD);
+    background-image: -o-linear-gradient(top, #F4F4F4, #DDDDDD);
+    background-image: linear-gradient(top, #F4F4F4, #DDDDDD);
+    background-image: -moz-linear-gradient(top, #F4F4F4, #DDDDDD);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#F4F4F4', endColorstr='#DDDDDD', GradientType=0);
+	height: 40px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	padding-top: 12px;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 24px;
+	text-shadow: 0 1px 1 white;
+	color: #373e47;
+	padding-left: 25px; 
+}
+
+.logo a:hover {
+	color: #FF8400;
+}
+
+*:first-child+html .logo a {
+	line-height: normal;
+}
+
+.orangeGO {
+	color: #FF8400;
+	font-size: 35px;
+}
+
+.logo a:hover .orangeGO {
+	color: #6B6B6B;
+}
+
+.orangeD {
+	color: #FF8400;
+	font-size: 25px;
+	font-style:italic;
+}
+
+.logo a:hover .orangeD {
+	color: #6B6B6B;
+}
+
+.black {
+	color: #373737;
+	font-size: 19px;
+	font-style:italic;
+}
+.logo a:hover .black {
+	color: #FF8400;
+}
+
+/*Навигация*/
+
+ul.nav {
+	margin: 0;
+	padding: 3px 0 0 0;
+	overflow: hidden;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	list-style: none;
+	padding: 0;
+}
+
+ul.nav li a {
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding: 0 30px;
+	display: block;
+	color: #373737;
+	text-shadow: 0 1px 0 white;
+}
+
+ul.nav li a.active {
+	color: #FF8400;
+}
+
+ul.nav li a:hover {
+	color: #E67700;
+}
+
+/*Контент*/
+
+.content {
+	float: center;
+	padding: 10px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border: 1px solid #67707d;
+	background-color: orange;
+	background-color: #F6F6F6;
+	overflow: hidden;
+}
+
+.rightCol {
+	float: center;
+	margin-left: 10px;
+	width: 220px;
+}
+
+
+.leftpart {
+	float: left;
+	margin-right: 20px;
+	width: 220px;
+	padding: 20px;
+}
+.rightpart {
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.block {
+	margin: 10px 10px 10px 10px;
+	padding: 20px; 
+	background-color: #F6F6F6;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 0 2px 3px rgba(220,220,220,0.3), inset 0 2px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(220,220,220,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 0 rgba(220,220,220,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+}
+
+.block img {
+	float: center;
+	margin: 5px;
+}
+
+.blockstart {
+	width: 100%;
+	padding: 10px;
+	margin: 20px;
+	float: left;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.3), inset 0 2px 1px rgba(0,0,0,0.3);
+}
+.blockstart h3 {
+	margin: 5px;
+}
+
+
+
+
+.hovergallery img{
+ float: center;
+-webkit-transform:scale(0.9); /*Webkit: уменьшаем размер до 0.8*/
+-moz-transform:scale(0.9); /*Mozilla: масштабирование*/
+-o-transform:scale(0.9); /*Opera: масштабирование*/
+-webkit-transition-duration: 0.5s; /*Webkit: длительность анимации*/
+-moz-transition-duration: 0.5s; /*Mozilla: длительность анимации*/
+-o-transition-duration: 0.5s; /*Opera: длительность анимации*/
+opacity: 0.6; /*Начальная прозрачность изображений*/
+margin: 5px; /*Интервалы между изображениями*/
+}
+
+.hovergallery img:hover{
+	float: center;
+-webkit-transform:scale(1); /*Webkit: увеличиваем размер до 1.2x*/
+-moz-transform:scale(1); /*Mozilla: масштабирование*/
+-o-transform:scale(1); /*Opera: масштабирование*/
+box-shadow:0px 0px 20px gray; /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+-webkit-box-shadow:0px 0px 20px gray; /*Webkit: тени*/
+-moz-box-shadow:0px 0px 20px gray; /*Mozilla: тени*/
+opacity: 1;
+}
+
+
+/*Подвал*/
+.footer {
+
+}
+
+.footer p {
+	text-align: center;
+}
